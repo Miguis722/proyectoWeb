@@ -8,6 +8,9 @@ body {
     background: var(--color-3);
 }
 
+/*  Pagina Numero 1 */
+
+
 .header { 
     height: 5vh;
     width: 100%;
@@ -107,6 +110,18 @@ hr {
     margin-bottom: 15vh;
 }
 
+
+
+
+
+
+
+
+
+
+/* Pagina Numero dos */
+
+
 .big__container {
     display: flex;
     justify-content: space-around;
@@ -176,3 +191,69 @@ hr {
     height: 35vh;
     width: auto;
 }
+
+
+/* Pagina Numero 3 */
+
+
+.container__page__number_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.page__number_3__tittle h2{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    color: var(--color-1);
+    font-size: 2rem;
+}
+
+.page__number_3__Big__Tittle h1 {
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    color: var(--color-2);
+    font-size: 5rem;
+}
+
+.divdivdivdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 15vh 15vh 15vh 15vh;
+    gap: 5vh;
+}
+
+.divdivdivdiv h3, span {
+    margin-bottom: .2vh;
+}
+.divdivdivdiv p {
+    color: var(--color-1);
+    margin-top: .2vh;
+}
+
+.food__container__big {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background: var(--color-4);
+    border: 1px solid var(--color-3);
+    height: auto;
+    width: 30vh;
+}
+
+.imagen {
+    display: flex;
+    border: 1px solid var(--color-4);
+    justify-content: center;
+}
+
+.imagen img {
+    height: 25vh;
+    width: 25vh;
+}
+
