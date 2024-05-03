@@ -49,6 +49,9 @@ body {
     align-items: center;
 }
 
+.header .header__redirections li {
+    list-style: none;
+}
 
 .main {
     display: flex;
@@ -84,10 +87,11 @@ body {
     width: 10vh;
     align-items: center;
     text-align: center;
-
+    align-content: center;
     margin-top: 3vh;
     margin-left: 26vh;
 }
+
 .main .main__left__side__button a {
     text-decoration: none;
     color: var(--color-2);
@@ -96,4 +100,79 @@ body {
 .main__right__side__image img {
     height: 50vh;
     width: 50%;
+}
+
+hr {
+    border: 1px solid var(--color-7);
+    margin-bottom: 15vh;
+}
+
+.big__container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 26vh;
+    margin-bottom: 15vh;
+}
+
+.big__container .big__container__images, .big__container__text {
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.big__container .big__container__text h2 {
+    color: var(--color-1);
+}
+
+.big__container .big__container__text p, h1, a {
+    color: var(--color-2);
+}
+
+.big__container__text {
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: -50vh;
+}
+
+.big__container__text h1 {
+    margin-top: 1vh;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.big__container__text p {
+    margin-top: 1vh;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.text {
+    width: 45vh;
+}
+
+.big__container__text__button {
+    width: 10vh;
+    background: var(--color-1);
+    height: 3vh;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 1vh;
+}
+
+.big__container__text__button a{
+    background: var(--color-1);
+    text-decoration: none;
+    width: 10vh;
+    height: 3vh;
+}
+
+.big__container__images {
+    margin-left: 15vh;
+}
+
+.big__container__images img {
+    height: 35vh;
+    width: auto;
 }
