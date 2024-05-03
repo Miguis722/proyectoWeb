@@ -50,3 +50,50 @@ body {
 }
 
 
+.main {
+    display: flex;
+    margin-bottom: 20vh;
+}
+
+.main .main__left__side, .main__right__side {
+    flex-direction: column;
+    flex: 1;
+}
+.main .main__left__side {
+    margin-top: 20vh;
+}
+.main .main__left__side__tittle h1 {
+    color: var(--color-1);
+    font-size: 5rem;
+    text-align: center;
+}
+
+.main .main__left__side__text p {
+    color: var(--color-2);
+    font-size: 1.5rem;
+    align-self: center;
+    text-align: justify;
+    align-content: center;
+    align-self: center;
+    margin-left: 26vh;
+}
+
+.main .main__left__side__button {
+    background: var(--color-1);
+    height: 3vh;
+    width: 10vh;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 3vh;
+    margin-left: 26vh;
+}
+.main .main__left__side__button a {
+    text-decoration: none;
+    color: var(--color-2);
+}
+
+.main__right__side__image img {
+    height: 50vh;
+    width: 50%;
+}
