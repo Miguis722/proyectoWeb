@@ -88,6 +88,11 @@ body {
         text-align: center;
         align-items: center;
     }
+
+    .main .main__left__side__text p {
+        text-align: center !important;
+    }
+
 }
 
 .main {
@@ -126,6 +131,7 @@ body {
     color: var(--color-2);
     font-size: 1.5rem;
     align-self: center;
+    text-align: justify;
 }
 
 .main .main__left__side__button {
