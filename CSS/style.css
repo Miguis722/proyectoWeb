@@ -325,30 +325,38 @@ hr {
     align-self: center;
     padding: 10vh 30vh 10vh 40vh;
     margin-bottom: 15vh;
-
 }
 
 .container__page__number_5 h1 {
     color: var(--color-3);
     font-size: 4rem;
     margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container__page__number_5 .botondellearnmore {
     color: var(--color-2);
     background: var(--color-1);
-    height: 5vh;
-    width: 20vh;
+    height: 50px;
+    width: 200px;
     font-size: 1.5rem;
     text-align: center;
     align-self: center;
     align-items: center;
     justify-content: center;
-    margin-left: 20vh;
     display: flex;
 }
 
-.container__page__number_5 .botondellearnmore a {
+.page__number_5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container__page__number_5 .botondellearnmore {
     text-decoration: none;
     text-align: center;
     align-self: center;
