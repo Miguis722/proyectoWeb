@@ -6,6 +6,7 @@
 
 body {
     background: var(--color-3);
+    font-family: var(--font-family-primary);
 }
 
 /*  Pagina Numero 1 */
