@@ -31,6 +31,9 @@ body {
 
 .header__redirections {
     height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .header .header__redirections ul {
@@ -41,6 +44,17 @@ body {
     gap: 10px;
     flex-wrap: nowrap;
     align-self: right;
+}
+
+.header .header__redirections li a {
+    color: var(--color-2);
+    width: 105px;
+    height: 35px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header .header__redirections a {
