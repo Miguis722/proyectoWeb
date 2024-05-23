@@ -77,7 +77,9 @@ body {
 
 .main {
     display: flex;
-    margin-bottom: 20vh;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .main .main__left__side, .main__right__side {
@@ -86,7 +88,15 @@ body {
 }
 .main .main__left__side {
     margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
+
+.main__right__side {
+    justify-content: flex-end;
+}
+
 .main .main__left__side__tittle h1 {
     color: var(--color-1);
     font-size: 5rem;
@@ -105,8 +115,8 @@ body {
 
 .main .main__left__side__button {
     background: var(--color-1);
-    height: 3vh;
-    width: 10vh;
+    height: 50px;
+    width: 150px;
     align-items: center;
     text-align: center;
     align-content: center;
@@ -120,7 +130,7 @@ body {
 }
 
 .main__right__side__image img {
-    height: 50vh;
+    height: 50%;
     width: 50%;
 }
 
