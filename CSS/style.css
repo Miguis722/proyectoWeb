@@ -1,7 +1,8 @@
 @import url(variable.css);
 *{
  margin: 0;
- padding: 0;   
+ padding: 0;
+ box-sizing: border-box;
 }
 
 body {
@@ -77,24 +78,28 @@ body {
 
 .main {
     display: flex;
-    margin-bottom: 90px;
+    flex-direction: row;
     margin-top: 30px;
     width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .main .main__left__side, .main__right__side {
     flex-direction: column;
-    flex: 1;
-}
-.main .main__left__side {
-    margin-top: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 50px;
 }
 
-.main__right__side {
-    justify-content: flex-end;
+.main .main__left__side {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .main .main__left__side__tittle h1 {
@@ -104,24 +109,17 @@ body {
 }
 
 .main .main__left__side__text p {
+    text-align: justify;
     color: var(--color-2);
     font-size: 1.5rem;
     align-self: center;
-    text-align: justify;
-    align-content: center;
-    align-self: center;
-    margin-left: 26vh;
 }
 
 .main .main__left__side__button {
     background: var(--color-1);
     height: 50px;
     width: 150px;
-    align-items: center;
-    text-align: center;
     align-content: center;
-    margin-top: 3vh;
-    margin-left: 26vh;
 }
 
 .main .main__left__side__button a {
@@ -129,9 +127,9 @@ body {
     color: var(--color-2);
 }
 
-.main__right__side__image img {
-    height: 50%;
-    width: 50%;
+.imagendehome {
+    width: 100%;
+    height: 50vh;
 }
 
 hr {
